@@ -1,0 +1,8 @@
+node_modules/
+lib/
+out/
+*.log
+*-app/*
+!*-app/package.json
+server/
+*.vsix

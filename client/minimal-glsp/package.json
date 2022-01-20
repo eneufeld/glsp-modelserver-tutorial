@@ -1,0 +1,32 @@
+{
+  "name": "examaple-glsp",
+  "version": "0.8.0",
+  "description": "GLSP sprotty diagrams for the Example",
+  "license": "(EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0)",
+  "keywords": [
+    "glsp",
+    "minimal",
+    "diagram"
+  ],
+  "files": [
+    "lib",
+    "src",
+    "css"
+  ],
+  "dependencies": {
+    "@eclipse-glsp/client": "next"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.1",
+    "typescript": "3.9.2"
+  },
+  "scripts": {
+    "prepare": "yarn clean && yarn build && yarn lint",
+    "clean": "rimraf lib",
+    "build": "tsc",
+    "lint": "eslint -c ./.eslintrc.js --ext .ts ./src",
+    "watch": "tsc -w"
+  },
+  "main": "lib/index",
+  "types": "lib/index"
+}

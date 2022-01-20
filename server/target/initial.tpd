@@ -1,0 +1,6 @@
+target "Minimal example" with source allEnvironments 
+
+location "http://download.eclipse.org/releases/2021-09" {
+	org.eclipse.emf.sdk.feature.group lazy
+	org.eclipse.platform.feature.group lazy
+}

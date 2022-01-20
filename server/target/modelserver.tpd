@@ -1,0 +1,28 @@
+target "Minimal example" with source allEnvironments 
+
+location "http://download.eclipse.org/releases/2021-09" {
+	org.eclipse.emf.sdk.feature.group lazy
+	org.eclipse.emf.transaction [1.9.1,2.0.0)
+	org.eclipse.emf.validation [1.8.0,2.0.0)
+	org.eclipse.platform.feature.group lazy
+}
+location "https://download.eclipse.org/emfcloud/modelserver/p2/nightly/" {
+	org.eclipse.emfcloud.modelserver.feature.feature.group lazy
+}
+location "https://download.eclipse.org/tools/orbit/downloads/drops/R20210602031627/repository/" {
+	com.google.inject [5.0.1,6.0.0)
+	com.fasterxml.jackson.core.jackson-core lazy
+	com.fasterxml.jackson.core.jackson-annotations lazy
+	com.fasterxml.jackson.core.jackson-databind lazy
+	com.google.guava [30.1.0,31.0.0)
+	javax.servlet [3.1.0,4.0.0)
+	org.apache.log4j [1.2.15,2.0.0)
+	org.aopalliance [1.0.0,2.0.0)
+	org.slf4j.binding.simple [1.7.30,2.0.0)
+}
+location "https://download.eclipse.org/emfcloud/emfjson-jackson/p2/nightly/" {
+	org.eclipse.emfcloud.emfjson-jackson lazy
+}
+location "https://download.eclipse.org/jetty/updates/jetty-bundles-9.x/9.4.44.v20210927/" {
+	org.eclipse.jetty.bundles.f.feature.group lazy
+}

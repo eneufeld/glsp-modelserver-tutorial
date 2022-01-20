@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/emfcloud/modelserver/notation">
+  <semanticElement uri="_KjaRcMnNEeuzYY8U8dVg6Q"/>
+  <elements xsi:type="notation:Shape">
+    <semanticElement uri="_KjaRcMnNEeuzYY8U8dVg6a"/>
+    <position x="917.953125" y="246.0"/>
+    <size width="126.71875" height="52.0"/>
+  </elements>
+</notation:Diagram>

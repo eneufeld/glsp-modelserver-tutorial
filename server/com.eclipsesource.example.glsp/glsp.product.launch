@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.pde.ui.RuntimeWorkbench">
+    <booleanAttribute key="append.args" value="true"/>
+    <stringAttribute key="application" value="com.eclipsesource.example.glsp.application"/>
+    <booleanAttribute key="askclear" value="true"/>
+    <booleanAttribute key="automaticAdd" value="false"/>
+    <booleanAttribute key="automaticValidate" value="true"/>
+    <stringAttribute key="bootstrap" value=""/>
+    <stringAttribute key="checked" value="[NONE]"/>
+    <booleanAttribute key="clearConfig" value="true"/>
+    <booleanAttribute key="clearws" value="false"/>
+    <booleanAttribute key="clearwslog" value="false"/>
+    <stringAttribute key="configLocation" value="${workspace_loc}/.metadata/.plugins/org.eclipse.pde.core/glsp.product"/>
+    <booleanAttribute key="default" value="false"/>
+    <setAttribute key="deselected_workspace_bundles"/>
+    <booleanAttribute key="includeOptional" value="true"/>
+    <stringAttribute key="location" value="${workspace_loc}/../runtime-glsp.product"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
+    <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-os ${target.os} -ws ${target.ws} -arch ${target.arch} -nl ${target.nl} -consoleLog"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dorg.eclipse.swt.graphics.Resource.reportNonDisposed=true"/>
+    <stringAttribute key="pde.version" value="3.3"/>
+    <stringAttribute key="product" value="com.eclipsesource.example.glsp.product"/>
+    <stringAttribute key="productFile" value="/com.eclipsesource.example.glsp/glsp.product"/>
+    <setAttribute key="selected_target_bundles">
+        <setEntry value="com.fasterxml.jackson.core.jackson-annotations@default:default"/>
+        <setEntry value="com.fasterxml.jackson.core.jackson-core@default:default"/>
+        <setEntry value="com.fasterxml.jackson.core.jackson-databind@default:default"/>
+        <setEntry value="com.google.gson@default:default"/>
+        <setEntry value="com.google.guava@default:default"/>
+        <setEntry value="com.google.inject@default:default"/>
+        <setEntry value="com.ibm.icu@default:default"/>
+        <setEntry value="javax.inject@default:default"/>
+        <setEntry value="javax.servlet@default:default"/>
+        <setEntry value="javax.websocket@default:default"/>
+        <setEntry value="org.aopalliance@default:default"/>
+        <setEntry value="org.apache.commons.cli@default:default"/>
+        <setEntry value="org.apache.commons.io@default:default"/>
+        <setEntry value="org.apache.log4j@default:default"/>
+        <setEntry value="org.eclipse.core.contenttype@default:default"/>
+        <setEntry value="org.eclipse.core.expressions@default:default"/>
+        <setEntry value="org.eclipse.core.filesystem@default:default"/>
+        <setEntry value="org.eclipse.core.jobs@default:default"/>
+        <setEntry value="org.eclipse.core.resources@default:default"/>
+        <setEntry value="org.eclipse.core.runtime@default:true"/>
+        <setEntry value="org.eclipse.elk.alg.common@default:default"/>
+        <setEntry value="org.eclipse.elk.alg.layered@default:default"/>
+        <setEntry value="org.eclipse.elk.core@default:default"/>
+        <setEntry value="org.eclipse.elk.graph@default:default"/>
+        <setEntry value="org.eclipse.emf.common@default:default"/>
+        <setEntry value="org.eclipse.emf.ecore.change@default:default"/>
+        <setEntry value="org.eclipse.emf.ecore.xmi@default:default"/>
+        <setEntry value="org.eclipse.emf.ecore@default:default"/>
+        <setEntry value="org.eclipse.emf.edit@default:default"/>
+        <setEntry value="org.eclipse.emf.transaction@default:default"/>
+        <setEntry value="org.eclipse.emf.validation@default:default"/>
+        <setEntry value="org.eclipse.emfcloud.emfjson-jackson@default:default"/>
+        <setEntry value="org.eclipse.emfcloud.modelserver.client@default:default"/>
+        <setEntry value="org.eclipse.emfcloud.modelserver.common@default:default"/>
+        <setEntry value="org.eclipse.emfcloud.modelserver.edit@default:default"/>
+        <setEntry value="org.eclipse.emfcloud.modelserver.emf@default:default"/>
+        <setEntry value="org.eclipse.emfcloud.modelserver.lib@default:default"/>
+        <setEntry value="org.eclipse.equinox.app@default:default"/>
+        <setEntry value="org.eclipse.equinox.common@2:true"/>
+        <setEntry value="org.eclipse.equinox.preferences@default:default"/>
+        <setEntry value="org.eclipse.equinox.registry@default:default"/>
+        <setEntry value="org.eclipse.glsp.graph@default:default"/>
+        <setEntry value="org.eclipse.glsp.layout@default:default"/>
+        <setEntry value="org.eclipse.glsp.server@default:default"/>
+        <setEntry value="org.eclipse.jetty.http*9.4.44.v20210927@default:default"/>
+        <setEntry value="org.eclipse.jetty.io*9.4.44.v20210927@default:default"/>
+        <setEntry value="org.eclipse.jetty.security*9.4.44.v20210927@default:default"/>
+        <setEntry value="org.eclipse.jetty.server*9.4.44.v20210927@default:default"/>
+        <setEntry value="org.eclipse.jetty.servlet*9.4.44.v20210927@default:default"/>
+        <setEntry value="org.eclipse.jetty.util*9.4.44.v20210927@default:default"/>
+        <setEntry value="org.eclipse.jetty.util.ajax*9.4.44.v20210927@default:default"/>
+        <setEntry value="org.eclipse.jetty.websocket.api@default:default"/>
+        <setEntry value="org.eclipse.jetty.websocket.common@default:default"/>
+        <setEntry value="org.eclipse.jetty.websocket.server@default:default"/>
+        <setEntry value="org.eclipse.jetty.websocket.servlet@default:default"/>
+        <setEntry value="org.eclipse.lsp4j.jsonrpc@default:default"/>
+        <setEntry value="org.eclipse.lsp4j@default:default"/>
+        <setEntry value="org.eclipse.osgi@-1:true"/>
+        <setEntry value="org.eclipse.xtext.xbase.lib@default:default"/>
+        <setEntry value="org.slf4j.api@default:default"/>
+    </setAttribute>
+    <setAttribute key="selected_workspace_bundles">
+        <setEntry value="com.eclipsesource.example.glsp@default:default"/>
+        <setEntry value="com.eclipsesource.example.model@default:default"/>
+        <setEntry value="org.eclipse.emfcloud.modelserver.glsp.integration@default:default"/>
+        <setEntry value="org.eclipse.emfcloud.modelserver.glsp.notation.commands@default:default"/>
+        <setEntry value="org.eclipse.emfcloud.modelserver.glsp.notation.model@default:default"/>
+    </setAttribute>
+    <booleanAttribute key="show_selected_only" value="false"/>
+    <booleanAttribute key="tracing" value="false"/>
+    <booleanAttribute key="useCustomFeatures" value="false"/>
+    <booleanAttribute key="useDefaultConfig" value="true"/>
+    <booleanAttribute key="useDefaultConfigArea" value="true"/>
+    <booleanAttribute key="useProduct" value="true"/>
+</launchConfiguration>

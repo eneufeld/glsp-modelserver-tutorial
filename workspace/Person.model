@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<example-model:Person xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:example-model="http://eclipsesource.com/example/model" xmi:id="_KjaRcMnNEeuzYY8U8dVg6Q" name="John Doe">
+  <tasks xmi:id="_KjaRcMnNEeuzYY8U8dVg6a" name="Foo"/>
+</example-model:Person>
